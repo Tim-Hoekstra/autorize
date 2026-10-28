@@ -217,6 +217,10 @@ curl -s http://127.0.0.1:9877/mcp \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
 ```
+# Adding MCP to Claude
+```bash
+claude mcp add --transport http autorize http://127.0.0.1:9877/mcp --header "Authorization: Bearer 840da3d3…"
+```
 
 ### Available tools
 
